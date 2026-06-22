@@ -1,0 +1,80 @@
+name: Feedback po demo RoadToUCI
+description: Powiedz, co zadziałało w demo i co chcesz zobaczyć dalej.
+title: "Feedback z dema RoadToUCI"
+labels:
+  - demo-feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dzięki za test RoadToUCI. Najbardziej pomagają konkretne przykłady: moment, który zapamiętałeś, rzecz do poprawy i jedna funkcja, którą chcesz zobaczyć w następnej wersji.
+  - type: textarea
+    id: liked
+    attributes:
+      label: Co najbardziej Ci się podobało?
+      description: Klimat, ekran, decyzja, wyścig, sprzęt, tempo, coś innego.
+      placeholder: Napisz, co zadziałało najlepiej.
+    validations:
+      required: true
+  - type: textarea
+    id: unclear
+    attributes:
+      label: Co było niejasne, nudne albo słabsze?
+      description: Wskaż miejsce, w którym demo traciło tempo lub było trudne do zrozumienia.
+      placeholder: Napisz, co warto poprawić.
+    validations:
+      required: true
+  - type: checkboxes
+    id: next
+    attributes:
+      label: Co chcesz zobaczyć dalej?
+      options:
+        - label: Ręcznie sterowany wyścig
+        - label: Kalendarz sezonu
+        - label: Więcej sprzętu i sklepu
+        - label: Relacje z trenerem, drużyną i rywalami
+        - label: Sponsorzy, budżet i presja wyników
+        - label: Więcej historii, dialogów i zdarzeń
+        - label: Więcej tras, pogody i regionów
+  - type: dropdown
+    id: focus
+    attributes:
+      label: Co jest dla Ciebie najważniejsze w tej grze?
+      options:
+        - Emocje wyścigu
+        - Rozwój kariery
+        - Sprzęt i warsztat
+        - Klimat świata
+        - Relacje i fabuła
+        - Strategia treningu
+    validations:
+      required: true
+  - type: textarea
+    id: wish
+    attributes:
+      label: Jedna rzecz, którą najbardziej chcesz zobaczyć w grze
+      placeholder: Np. sterowanie atakiem na podjeździe, pełny sezon, sklep z rowerami, rywale z osobowością...
+    validations:
+      required: true
+  - type: dropdown
+    id: rating
+    attributes:
+      label: Jak oceniasz potencjał dema?
+      options:
+        - 5 - bardzo chcę grać dalej
+        - 4 - ma duży potencjał
+        - 3 - ciekawy kierunek
+        - 2 - jeszcze mnie nie złapało
+        - 1 - nie dla mnie
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Urządzenie lub sposób testu
+      placeholder: Np. iPhone 15, iPad, Mac, TestFlight, nagranie wideo
+  - type: input
+    id: contact
+    attributes:
+      label: Kontakt opcjonalny
+      placeholder: Nick, e-mail albo puste
