@@ -1,286 +1,163 @@
 <!doctype html>
 <html lang="pl">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta
-      name="description"
-      content="Droga do World Tour: Prolog to kolarska gra na iPhone'a o karierze, kapslowym ściganiu, sprzęcie, rywalach i sezonie Lipcowa Pętla 2026."
-    >
-    <meta property="og:title" content="Droga do World Tour: Prolog">
-    <meta
-      property="og:description"
-      content="Pełnoprawny pierwszy rozdział gry: kariera młodego kolarza, cyfrowe kapsle i sezon inspirowany wielkim lipcowym ściganiem."
-    >
-    <meta property="og:image" content="assets/prolog-hero.png">
-    <meta name="theme-color" content="#f4c95d">
-    <title>Droga do World Tour: Prolog</title>
-    <link rel="icon" href="assets/roadtouci-icon.png">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header class="site-header" aria-label="Główna nawigacja">
-      <a class="brand" href="#top" aria-label="Droga do World Tour: Prolog">
-        <img src="assets/roadtouci-icon.png" alt="">
-        <span>Droga do World Tour</span>
-      </a>
-      <nav>
-        <a href="#gra">Gra</a>
-        <a href="#prolog">Prolog</a>
-        <a href="#sezon">Sezon</a>
-        <a href="#rozgrywka">Rozgrywka</a>
-        <a href="#screeny">Screeny</a>
-      </nav>
-    </header>
-
-    <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow">Prolog 1.0.1 na iPhone</p>
-          <h1 id="hero-title">Droga do World Tour</h1>
-          <p class="hero-lead">
-            Kolarska kariera, cyfrowe kapsle i pierwszy sezon wielkiego ścigania.
-            Zaczynasz od lokalnej trasy, budujesz formę, dbasz o sprzęt i uczysz
-            się wygrywać kapslem na planszy 3D.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="https://apps.apple.com/app/roadtouci/id6787514298" target="_blank" rel="noopener noreferrer">Pobierz z App Store</a>
-            <a class="button secondary" href="#rozgrywka">Zobacz rozgrywkę</a>
-            <a class="button secondary" href="#sezon">Lipcowa Pętla 2026</a>
-          </div>
-        </div>
-        <div class="hero-strip" aria-label="Najważniejsze informacje">
-          <span>Pełny Prolog</span>
-          <span>Kapsle 3D</span>
-          <span>Kariera PL/EN</span>
-          <span>Bez kont i reklam</span>
-        </div>
-      </section>
-
-      <section id="gra" class="section section-game" aria-labelledby="game-title">
-        <div class="section-inner split">
-          <div>
-            <p class="section-kicker">O grze</p>
-            <h2 id="game-title">Kolarstwo, które zaczyna się od jednego pstryknięcia</h2>
-            <p>
-              Droga do World Tour to gra o młodym kolarzu, który próbuje przejść
-              drogę od amatorskich startów do profesjonalnego peletonu. W Prologu
-              liczą się decyzje tygodnia, forma, morale, garaż kapsli, odprawa
-              przed startem i pierwszy prawdziwy wyścig na planszy.
-            </p>
-            <p>
-              Sercem gry jest nowoczesna wersja kapslowego ścigania. Dotykasz
-              kapsla, naciągasz kierunek i siłę, puszczasz palec, a wynik zależy
-              od trasy, ryzyka, rytmu, sprzętu oraz przygotowania zawodnika.
-            </p>
-          </div>
-          <div class="pillar-grid" aria-label="Filary gry">
-            <article>
-              <span>01</span>
-              <h3>Kariera</h3>
-              <p>Plan tygodnia, forma, odpoczynek, relacje i presja kolejnego startu.</p>
-            </article>
-            <article>
-              <span>02</span>
-              <h3>Kapsel</h3>
-              <p>Manualne pstrykanie na planszy 3D zamiast samej symulacji wyniku.</p>
-            </article>
-            <article>
-              <span>03</span>
-              <h3>Garaż</h3>
-              <p>Wybór kapsla, stylu i przygotowania pod konkretny typ etapu.</p>
-            </article>
-            <article>
-              <span>04</span>
-              <h3>Sezon</h3>
-              <p>Lipcowa Pętla 2026 jako pierwszy duży kontekst rywalizacji.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="prolog" class="section section-prologue" aria-labelledby="prologue-title">
-        <div class="section-inner prologue-layout">
-          <div>
-            <p class="section-kicker">Pierwszy rozdział</p>
-            <h2 id="prologue-title">Pełnoprawne otwarcie gry</h2>
-            <p>
-              Prolog jest samodzielnym wejściem w świat gry: wprowadza klimat,
-              pokazuje zasady kapsli i daje pierwszą pełną pętlę od decyzji
-              kariery do wyścigu. Strona opowiada teraz, czym jest gra i dlaczego
-              warto wejść w ten świat.
-            </p>
-          </div>
-          <div class="prologue-list" aria-label="Co zawiera Prolog">
-            <article>
-              <h3>Start kariery</h3>
-              <p>Menu, wprowadzenie, hub kariery, przygotowanie dnia i pierwsze cele.</p>
-            </article>
-            <article>
-              <h3>Plansza 3D</h3>
-              <p>Ściganie kapslem w SceneKit z kamerą, linią trasy i fizycznym ruchem.</p>
-            </article>
-            <article>
-              <h3>Klimat audio</h3>
-              <p>Reaktywna muzyka ambient/trip-hop i efekty pod rytm wyścigu.</p>
-            </article>
-            <article>
-              <h3>Prywatność</h3>
-              <p>Bez kont, reklam, analityki i śledzenia. Postęp zostaje lokalnie.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="sezon" class="section section-season" aria-labelledby="season-title">
-        <div class="section-inner">
-          <div class="section-heading">
-            <p class="section-kicker">Sezon specjalny</p>
-            <h2 id="season-title">Lipcowa Pętla 2026</h2>
-            <p>
-              Aktualny sezon gry nawiązuje do wielkiego lipcowego ścigania:
-              start w Barcelonie, powrót do Francji, góry, czasówki i finał w
-              Paryżu. W grze to autorska, nielicencjonowana interpretacja -
-              bez oficjalnych znaków, koszulek, drużyn i logotypów.
-            </p>
-          </div>
-
-          <div class="season-grid" aria-label="Informacje o sezonie">
-            <article class="season-card accent-gold">
-              <span>04.07-26.07</span>
-              <h3>Trzy tygodnie presji</h3>
-              <p>21 etapów i rytm sezonu, w którym każdy dzień może zmienić plan kariery.</p>
-            </article>
-            <article class="season-card accent-blue">
-              <span>Barcelona</span>
-              <h3>Grand Départ</h3>
-              <p>Prolog sezonu zaczyna się katalońskim akcentem i pierwszą jazdą drużynową.</p>
-            </article>
-            <article class="season-card accent-green">
-              <span>Góry</span>
-              <h3>Pyreneje, Jura i Alpy</h3>
-              <p>Wspinaczki i zjazdy zmieniają kontrolę kapsla, ryzyko i przygotowanie.</p>
-            </article>
-            <article class="season-card accent-red">
-              <span>Paryż</span>
-              <h3>Finał na wielkiej scenie</h3>
-              <p>Ostatni etap jest celem marzeń, ale najpierw trzeba przeżyć drogę.</p>
-            </article>
-          </div>
-
-          <div class="route-panel">
-            <div>
-              <h3>Co bierzemy z realnego sezonu 2026</h3>
-              <p>
-                Oficjalna trasa Tour de France 2026 ma 3320,7 km, 21 etapów:
-                7 płaskich, 4 pagórkowate, 8 górskich, jedną czasówkę drużynową,
-                jedną indywidualną i dwa dni przerwy. Pierwsze etapy prowadzą
-                przez Barcelonę, Tarragonę, Granollers i Les Angles.
-              </p>
-            </div>
-            <ol class="stage-list">
-              <li><strong>Etap 1:</strong> Barcelona - Barcelona, 19,6 km, czasówka drużynowa.</li>
-              <li><strong>Etap 2:</strong> Tarragona - Barcelona, 168,5 km, etap pagórkowaty.</li>
-              <li><strong>Etap 3:</strong> Granollers - Les Angles, 195,9 km, pierwszy górski test.</li>
-            </ol>
-          </div>
-
-          <div class="source-links" aria-label="Źródła danych sezonu">
-            <span>Źródła sezonu:</span>
-            <a href="https://www.letour.fr/en/overall-route">oficjalna trasa 2026</a>
-            <a href="https://www.letour.fr/en/the-race/grands-departs/grand-depart-2026">Grand Départ Barcelona</a>
-            <a href="https://www.letour.barcelona/en">Barcelona 2026</a>
-          </div>
-        </div>
-      </section>
-
-      <section id="rozgrywka" class="section section-play" aria-labelledby="play-title">
-        <div class="section-inner">
-          <div class="section-heading narrow">
-            <p class="section-kicker">Rozgrywka</p>
-            <h2 id="play-title">Od decyzji w tygodniu do pstryknięcia na trasie</h2>
-            <p>
-              Prolog pokazuje docelowy rytm gry: przygotowanie zawodnika,
-              dopasowanie kapsla, odprawę przed startem i wyścig, w którym
-              kontrola palcem spotyka się z formą, sprzętem oraz ryzykiem.
-            </p>
-          </div>
-
-          <div class="loop-grid" aria-label="Pętla rozgrywki">
-            <article>
-              <span>1</span>
-              <h3>Planujesz tydzień</h3>
-              <p>Trening, odpoczynek i nastrój zawodnika ustawiają punkt startu.</p>
-            </article>
-            <article>
-              <span>2</span>
-              <h3>Szykujesz kapsel</h3>
-              <p>W garażu wybierasz styl, czucie i przygotowanie pod typ trasy.</p>
-            </article>
-            <article>
-              <span>3</span>
-              <h3>Czytasz odprawę</h3>
-              <p>Rywal, pogoda, sponsor i profil etapu mówią, gdzie warto zaryzykować.</p>
-            </article>
-            <article>
-              <span>4</span>
-              <h3>Pstrykasz</h3>
-              <p>Naciągasz kierunek oraz siłę, a kapsel sunie po zakrętach planszy 3D.</p>
-            </article>
-            <article>
-              <span>5</span>
-              <h3>Budujesz drogę</h3>
-              <p>Wynik wraca do kariery: forma, morale, reputacja i następne cele rosną albo bolą.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="screeny" class="section section-screens" aria-labelledby="screens-title">
-        <div class="section-inner">
-          <div class="section-heading narrow">
-            <p class="section-kicker">Screeny z Prologu</p>
-            <h2 id="screens-title">Tak wygląda pierwszy rozdział</h2>
-            <p>
-              Kadry pochodzą z aktualnego polskiego builda Prologu: menu,
-              kariera, mapa przygotowań, odprawa kapsla i plansza wyścigu.
-            </p>
-          </div>
-
-          <div class="screens-grid">
-            <figure>
-              <img src="assets/screen-menu.png" alt="Menu główne Prologu z kapslami">
-              <figcaption>Menu Prologu</figcaption>
-            </figure>
-            <figure>
-              <img src="assets/screen-career.png" alt="Ekran huba kariery zawodnika">
-              <figcaption>Hub kariery</figcaption>
-            </figure>
-            <figure>
-              <img src="assets/screen-map.png" alt="Mapa przygotowania do kolejnego dnia">
-              <figcaption>Plan dnia</figcaption>
-            </figure>
-            <figure>
-              <img src="assets/screen-briefing.png" alt="Odprawa przed wyścigiem kapsla">
-              <figcaption>Odprawa kapsla</figcaption>
-            </figure>
-            <figure>
-              <img src="assets/screen-board.png" alt="Plansza 3D z kapslem na trasie">
-              <figcaption>Plansza 3D</figcaption>
-            </figure>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <span>Droga do World Tour: Prolog</span>
-      <span>Nieoficjalna gra kolarska. Nie jest produktem ani oficjalną grą Tour de France, UCI lub ASO.</span>
-      <a href="https://apps.apple.com/app/roadtouci/id6787514298" target="_blank" rel="noopener noreferrer">App Store</a>
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="https://github.com/lpociask/RoadToUCI">Repozytorium projektu</a>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Droga do World Tour — pomoc i wsparcie</title>
+<meta name="description" content="Wsparcie Droga do World Tour: pierwsze kroki, FAQ, kontakt, App Store i polityka prywatności.">
+<link rel="canonical" href="https://lpociask.github.io/RoadToUCI-site/">
+<meta name="theme-color" content="#fbf8ef">
+<link rel="stylesheet" href="support-migration.css">
+<link rel="icon" href="assets/roadtouci-icon.png">
+</head>
+<body>
+<a class="skip" href="#main">Przejdź do treści</a>
+<header class="shell topbar">
+<a class="brand" href="./">
+<img src="assets/roadtouci-icon.png" alt="" width="42" height="42">
+<span>Droga do World Tour</span>
+</a>
+<nav aria-label="Nawigacja wsparcia">
+<a href="#pomoc">Pomoc</a>
+<a href="#support" lang="en">English</a>
+<a href="privacy.html">Prywatność</a>
+<a href="#contact">Kontakt</a>
+</nav>
+</header>
+<main class="shell" id="main">
+<section class="hero" id="top">
+<p class="eyebrow">Centrum pomocy / App support</p>
+<h1>Droga do World Tour<small>Pomoc jest tutaj.</small>
+</h1>
+<p class="lead">Pomoc do Prologu: od planu kariery i garażu kapsli do pierwszego wyścigu na planszy 3D.</p>
+<div class="actions">
+<a class="button" href="https://lpociask.dev/apps/world-tour/">Poznaj aplikację <span aria-hidden="true">↗</span>
+</a>
+<a class="button secondary" href="https://apps.apple.com/pl/app/road-to-world-tour/id6787514298">Otwórz App Store</a>
+</div>
+<ul class="meta">
+<li>Dostępna w App Store</li>
+<li>Pomoc dla wersji 1.0.1</li>
+<li>iOS 26</li>
+<li>PL + EN</li>
+</ul>
+</section>
+<section id="pomoc" class="grid" aria-label="Pomoc po polsku">
+<div class="panel">
+<h2>Pierwsze kroki</h2>
+<ol class="steps">
+<li>
+<div>
+<h3>Zaplanuj tydzień</h3>
+<p>Trening, regeneracja i decyzje kariery przygotowują zawodnika do kolejnego startu.</p>
+</div>
+</li>
+<li>
+<div>
+<h3>Przygotuj kapsel</h3>
+<p>W garażu wybierz kapsel i przygotowanie do etapu. Przed startem przeczytaj odprawę.</p>
+</div>
+</li>
+<li>
+<div>
+<h3>Pstryknij na planszy</h3>
+<p>Dotknij kapsla, naciągnij kierunek i siłę, a potem puść palec. Pilnuj linii jazdy i energii.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="panel">
+<h2>Najczęstsze pytania</h2>
+<details>
+<summary>Czy Prolog jest samodzielną grą?</summary>
+<p>Tak. Prolog daje pełną pierwszą pętlę od decyzji kariery do wyścigu. Wersja 1.0.1 zawiera sezon Lipcowa Pętla 2026 z 21 etapami.</p>
+</details>
+<details>
+<summary>Od czego zależy przejazd kapsla?</summary>
+<p>Liczą się kierunek i moc pstryknięcia, linia jazdy, energia, trasa i przygotowanie. Decyzje kariery oraz garażu mają znaczenie w dniu wyścigu.</p>
+</details>
+<details>
+<summary>Czy potrzebuję konta lub internetu?</summary>
+<p>Gra nie wymaga konta. Postęp kariery, ustawienia garażu i stan wyścigu są zapisywane lokalnie na urządzeniu; rozgrywka działa offline.</p>
+</details>
+<details>
+<summary>Czy to oficjalna gra Tour de France?</summary>
+<p>Nie. To autorska, nielicencjonowana gra kolarska. Nie jest oficjalnym produktem Tour de France, UCI ani ASO.</p>
+</details>
+</div>
+</section>
+<section class="english" id="support" lang="en">
+<p class="eyebrow">English support</p>
+<h2>How can we help?</h2>
+<p>Support for the Prologue: prepare your rider, choose a cap, read the briefing, and race on the 3D board.</p>
+<p>
+<a href="https://lpociask.dev/en/apps/world-tour/">Explore the app on lpociask.dev →</a>
+</p>
+<div class="grid">
+<div class="panel">
+<h3>Getting started</h3>
+<ol class="steps">
+<li>
+<div>
+<h3>Plan the week</h3>
+<p>Training, recovery, and career choices prepare the rider for the next start.</p>
+</div>
+</li>
+<li>
+<div>
+<h3>Prepare your cap</h3>
+<p>Choose the cap and setup in the garage. Read the briefing before the race.</p>
+</div>
+</li>
+<li>
+<div>
+<h3>Flick on the board</h3>
+<p>Touch the cap, drag to set direction and power, then release. Manage your racing line and energy.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="panel">
+<h3>Common questions</h3>
+<details>
+<summary>Is the Prologue a complete first chapter?</summary>
+<p>Yes. It includes a full loop from career decisions to racing. Version 1.0.1 includes the July Loop 2026 season with 21 stages.</p>
+</details>
+<details>
+<summary>What affects the cap’s movement?</summary>
+<p>Direction, flick power, racing line, energy, the course, and preparation all matter. Career and garage choices affect race day.</p>
+</details>
+<details>
+<summary>Do I need an account or internet connection?</summary>
+<p>No account is required and gameplay works offline. Career progress, garage choices, and race state are saved locally on your device.</p>
+</details>
+<details>
+<summary>Is this an official Tour de France game?</summary>
+<p>No. This is an original, unlicensed cycling game, not an official product of the Tour de France, UCI, or ASO.</p>
+</details>
+</div>
+</div>
+</section>
+<section class="contact" id="contact">
+<div>
+<p class="eyebrow">Kontakt / Contact</p>
+<a class="mail" href="mailto:lpociask@me.com">lpociask@me.com</a>
+<p>Łukasz Pociask · autor aplikacji / app developer</p>
+</div>
+<div>
+<h3>Zgłoszenie błędu / Reporting a problem</h3>
+<p>Podaj model urządzenia, wersję systemu i aplikacji oraz kroki prowadzące do problemu. Zrzut ekranu może pomóc.</p>
+<p lang="en">Include your device model, OS and app version, and the steps that lead to the problem. A screenshot can help.</p>
+</div>
+</section>
+</main>
+<footer class="shell foot">
+<span>Droga do World Tour · Łukasz Pociask</span>
+<nav aria-label="Stopka">
+<a href="privacy.html">Polityka prywatności</a>
+<a href="mailto:lpociask@me.com">Kontakt</a>
+<a href="https://lpociask.dev/">lpociask.dev</a>
+</nav>
+</footer>
+</body>
 </html>
